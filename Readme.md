@@ -2,6 +2,7 @@
 
 * Студент: [Кирилл Макаров](https://up.htmlacademy.ru/htmlcss-individual/2/user/2556765).
 * Наставник: [Анна Лисененкова](https://htmlacademy.ru/profile/ankhena).
+* Сайт: [Мой проект Седона](https://makerovka.github.io/2556765-sedona-2/)
 
 ---
 
