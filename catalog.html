@@ -7,7 +7,7 @@
   </head>
 
   <body>
-    <header class="page-header">
+    <header class="page-header" data-test="header">
       <a class="page-logo" href="index.html" aria-current="page">
         <img class="logo" src="#" alt="Логотип сайта Седона">
       </a>
@@ -42,7 +42,7 @@
       </nav>
     </header>
 
-    <main class="main-inner">
+    <main class="main-inner" data-test="main">
       <header class="inner-header">
         <h1 class="inner-header-title">Гостиницы Седоны</h1>
         <ul class="breadcrumbs">
@@ -57,7 +57,7 @@
         </ul>
       </header>
 
-      <section class="catalog-hotels">
+      <section class="catalog-hotels" data-test="filter">
         <h2 class="visually-hidden">Гостиницы с фильтрами</h2>
         <form class="catalog-filter" action="https://echo.htmlacademy.ru/" method="get">
           <fieldset class="catalog-filter-group">
@@ -92,13 +92,13 @@
                   Гостиница
                 </label>
               </li>
-              <li class="catalog-filter-item">
+              <li class="catalog-filter-item" data-test=" filter">
                 <label class="control">
                   <input class="control-input" type="radio" name="type-of-housing">
                   Мотель
                 </label>
               </li>
-              <li class="catalog-filter-item">
+              <li class="catalog-filter-item" data-test=" filter">
                 <label class="control">
                   <input class="control-input" type="radio" name="type-of-housing">
                   Апартаменты
@@ -141,7 +141,7 @@
           <span class="visually-hidden">Показать список</span>
         </a>
 
-        <ul class="hotel-list">
+        <ul class="hotel-list" data-test="catalog">
           <li class="hotel-card">
             <a class="hotel-card-link" href="#">
               <img class="hotel-card-image" src="#" alt="">
@@ -281,7 +281,7 @@
         </ul>
       </section>
 
-      <section class="footer-contacts">
+      <section class="footer-contacts" data-test="footer">
         <h2 class="visually-hidden">Наши контакты</h2>
         <address>
           <a class="contacts-phone" href="tel:+78128121212">+7 (812) 812-12-12</a>
@@ -293,5 +293,6 @@
       </a>
     </footer>
   </body>
+
 
 </html>
